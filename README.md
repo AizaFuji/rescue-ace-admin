@@ -1,59 +1,64 @@
 # Rescue Ace Admin
 
-A Flutter mobile application for Rescue Ace emergency management system administrators.
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+
+## Project Overview
+
+Rescue Ace Admin is a robust Flutter-based mobile application designed for administrators of the Rescue Ace emergency management system. It empowers users to efficiently manage emergency equipment, track locations in real-time, and ensure seamless operations during critical situations.
 
 ## Features
 
-- Admin authentication and profile management
-- Interactive map view of emergency equipment locations
-- Add and manage emergency equipment
-- Real-time location tracking with GPS coordinates
+- **Secure Authentication**: User login and profile management for authorized access.
+- **Interactive Mapping**: Visualize emergency equipment locations on an integrated map.
+- **Equipment Management**: Add, edit, and monitor emergency tools and resources.
 
 ## Tech Stack
 
-- Flutter
-- Provider (State Management)
-- Flutter Map & Mapbox
-- HTTP client
-- Shared Preferences
+- **Flutter**: Cross-platform mobile development framework.
+- **Provider**: State management solution for reactive UI updates.
+- **Flutter Map & Mapbox**: Interactive mapping and location services.
+- **HTTP Client**: API communication for data retrieval and updates.
+- **Shared Preferences**: Local data storage for user preferences.
+
 
 ## Getting Started
 
 ### Prerequisites
 
-- Flutter SDK (3.5.4+)
+- Flutter SDK (version 3.5.4 or higher)
 - Dart SDK
 
 ### Installation
 
-1. Clone the repository
-2. Run `flutter pub get`
-3. Create `.env` file with required environment variables
-4. Run `flutter run`
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd rescue-ace-admin
+   ```
 
-### Environment Variables
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
 
-Create a `.env` file in the root directory:
+3. Set up environment variables by creating a `.env` file with required configurations.
 
-```
-API_BASE_URL=http://rescue-ace.ddns.net
-MAPBOX_ACCESS_TOKEN=your_mapbox_token_here
-```
-
-## Architecture
-
-This project follows Clean Architecture principles with three main layers:
-- Presentation (UI & State Management)
-- Domain (Business Logic & Entities)
-- Data (Repositories & Data Sources)
+4. Run the application:
+   ```bash
+   flutter run
+   ```
 
 ## Building
 
-```bash
-flutter build apk --release
-flutter build ios --release
-```
+To build for production:
 
-## License
+- For Android APK:
+  ```bash
+  flutter build apk --release
+  ```
 
-Proprietary software. All rights reserved.
+- For iOS:
+  ```bash
+  flutter build ios --release
+  ```
