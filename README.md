@@ -1,8 +1,5 @@
 # Rescue Ace Admin
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-
 ## Project Overview
 
 Rescue Ace Admin is a robust Flutter-based mobile application designed for administrators of the Rescue Ace emergency management system. It empowers users to efficiently manage emergency equipment, track locations in real-time, and ensure seamless operations during critical situations.
